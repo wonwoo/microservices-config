@@ -1,5 +1,5 @@
 info:
-  component: Zuul Server123123
+  component: Zuul Server
 
 endpoints:
   restart:
