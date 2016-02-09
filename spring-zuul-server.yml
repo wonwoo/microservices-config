@@ -1,5 +1,5 @@
 info:
-  component: Zuul Server modify test
+  component: Zuul Server
 
 endpoints:
   restart:
