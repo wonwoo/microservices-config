@@ -10,7 +10,7 @@ endpoints:
     sensitive: true
 
 server:
-  port: 8766
+  port: 8765
 
 # zuul:
 #   routes:
