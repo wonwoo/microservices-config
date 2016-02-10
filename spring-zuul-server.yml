@@ -15,4 +15,5 @@ server:
 zuul:
   routes:
     users: /users/**
+    board : /board/**
 
