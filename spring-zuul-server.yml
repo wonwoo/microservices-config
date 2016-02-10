@@ -12,8 +12,8 @@ endpoints:
 server:
   port: 8765
 
-zuul:
-  routes:
-    users: /users/**
-    board : /board/**
+# zuul:
+#   routes:
+#     users: /users/**
+#     board : /board/**
 
