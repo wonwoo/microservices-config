@@ -9,3 +9,7 @@ spring:
     driver-class-name: org.h2.Driver
     username: sa
     password:
+
+server:
+  port: 8900
+  contextPath: /oauth2
