@@ -1,0 +1,6 @@
+
+
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://${authserver.hostname}:${authserver.port}/${authserver.contextpath}/me
