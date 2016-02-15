@@ -1,5 +1,10 @@
 
 
+authserver:
+    hostname: localhost
+    port: 8900
+    contextpath: oauth2
+
 security:
   oauth2:
     resource:
