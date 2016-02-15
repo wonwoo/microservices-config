@@ -3,9 +3,8 @@
 authserver:
     hostname: localhost
     port: 8900
-    contextpath: oauth2
 
 security:
   oauth2:
     resource:
-      userInfoUri: http://${authserver.hostname}:${authserver.port}/${authserver.contextpath}/me
+      userInfoUri: http://${authserver.hostname}:${authserver.port}/me
