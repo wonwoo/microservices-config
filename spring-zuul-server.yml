@@ -12,6 +12,27 @@ endpoints:
 server:
   port: 8765
 
+
+authserver:
+    hostname: localhost
+    port: 8900
+
+security:
+  oauth2:
+    sso:
+      home:
+        secure: false
+        path: /,/**/*.html
+    client:
+      accessTokenUri: http://${authserver.hostname}:${authserver.port}/uaa/oauth/token
+      userAuthorizationUri: http://${authserver.hostname}:${authserver.port}/uaa/oauth/authorize
+      clientId: wonwooapp2
+#      clientId: acme
+      clientSecret: XX0000003
+#      clientSecret: acmesecret
+    resource:
+      userInfoUri: http://${authserver.hostname}:${authserver.port}/uaa/me
+
 # zuul:
 #   routes:
 #     users: /users/**
