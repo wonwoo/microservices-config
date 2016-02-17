@@ -7,4 +7,4 @@ authserver:
 security:
   oauth2:
     resource:
-      userInfoUri: http://${authserver.hostname}:${authserver.port}/me
+      userInfoUri: http://${authserver.hostname}:${authserver.port}/uaa/me
