@@ -24,14 +24,14 @@ security:
         secure: false
         path: /,/**/*.html
     client:
-      accessTokenUri: http://${authserver.hostname}:${authserver.port}/uaa/oauth/token
-      userAuthorizationUri: http://${authserver.hostname}:${authserver.port}/uaa/oauth/authorize
+      accessTokenUri: http://${authserver.hostname}:${authserver.port}/oauth/token
+      userAuthorizationUri: http://${authserver.hostname}:${authserver.port}/oauth/authorize
       clientId: wonwooapp2
 #      clientId: acme
       clientSecret: XX0000003
 #      clientSecret: acmesecret
     resource:
-      userInfoUri: http://${authserver.hostname}:${authserver.port}/uaa/me
+      userInfoUri: http://${authserver.hostname}:${authserver.port}/me
 
 # zuul:
 #   routes:
